@@ -1,0 +1,45 @@
+Manuk Hovanesian
+23822097
+Windows 7
+source code inside submitted file "example_01.cpp"
+c++ tested on my computer through visual studio 2010, and hive machines via make
+
+features:
+
+flat/smooth/wireframe shading
+uniform/adaptive teselation
+ 
+controls:
+
+space to exit
+arrows to translate object
+ctrl+arrows to rotate object
+-/+(or =) to scale object
+left-mouse-drag to rotate camera
+right-mouse-drag to pan camera
+middle-mouse-drag to zoom camera
+space to exit
+w to toggle wireframe
+s to toggle smooth/flat shading
+c to toggle control points
+z/y rotate object as to align to z/y axis
+
+images:
+
+01: teapot.bez 0.001, wireframe
+02: teapot.bez 0.001, smooth
+03: teapot.bez 0.1, flat, with control points
+04: teapot.bez .005 -a, wireframe
+05: teapot.bez .05 -a, wireframe
+06: teapot.bez .005 -a, flat
+07: teapot.bez .005 -a, smooth
+08: test.bez .005 -a, wireframe
+09: test.bez .005, wireframe
+10: test.bez .1, smooth with control points
+11: heart.bez .1, wireframe, with control points
+12: heart.bez .005, wireframe
+
+to run:
+
+1) either open the .sln in visual studio and run
+2) or on linux, type "make", then "./as1 teapot.bez .01" (just an example)
